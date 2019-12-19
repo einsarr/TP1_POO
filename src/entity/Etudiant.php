@@ -24,6 +24,6 @@ class Etudiant extends Personne
     public function affichage()
     {
         parent::affiche();
-        echo $this->matricule;
+        echo " - matricule : ".$this->matricule;
     }
 }

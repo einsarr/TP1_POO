@@ -24,6 +24,6 @@ class Professeur extends Personne
     public function affichage()
     {
         parent::affiche();
-        echo $this->matiere;
+        echo " - matière : ".$this->matiere;
     }
 }

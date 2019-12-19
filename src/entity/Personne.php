@@ -1,5 +1,6 @@
 <?php
 class Personne{
+
     protected $nom;
     protected $prenom;
 
@@ -31,7 +32,7 @@ class Personne{
     }
     public function affiche()
     {
-        echo "Prenom : ".$this->prenom." Nom : ".$this->nom;
+        echo "Prenom : ".$this->prenom." - Nom : ".$this->nom;
     }
 
 }
